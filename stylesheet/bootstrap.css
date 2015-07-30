@@ -5050,6 +5050,7 @@ a.badge:focus {
   .jumbotron h1,
   .jumbotron .h1 {
     font-size: 68px;
+    font-weight: 500;
   }
 }
 .thumbnail {
@@ -7143,7 +7144,6 @@ h1 small {
   position: absolute;
   top: 50%;
   left: 50%;
-  margin-right: -50%;
   transform: translate(-50%, -50%);
   text-align: center;
 }

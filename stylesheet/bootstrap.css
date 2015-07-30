@@ -94,6 +94,9 @@ sub {
 img {
   border: 0;
 }
+.modal-body img {
+  max-width: 100%
+}
 svg:not(:root) {
   overflow: hidden;
 }

@@ -7145,7 +7145,7 @@ h1 small {
   margin-right: -50%;
   transform: translate(-50%, -50%);
   text-align: center;
-  border: 2px solid white;
+  /*border: 2px solid white;*/
 }
 .footer {
   position: fixed;

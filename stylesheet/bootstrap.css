@@ -5011,11 +5011,13 @@ a.badge:focus {
   margin-left: 3px;
 }
 .jumbotron {
-  padding-top: 30px;
+  color: #fff;
+  font-weight: bold;
+  /*padding-top: 30px;
   padding-bottom: 30px;
   margin-bottom: 30px;
   color: inherit;
-  background-color: #fafafa;
+  background-color: #fafafa;*/
 }
 .jumbotron h1,
 .jumbotron .h1 {
@@ -5038,8 +5040,8 @@ a.badge:focus {
 }
 @media screen and (min-width: 768px) {
   .jumbotron {
-    padding-top: 48px;
-    padding-bottom: 48px;
+    /*padding-top: 48px;
+    padding-bottom: 48px;*/
   }
   .container .jumbotron,
   .container-fluid .jumbotron {
@@ -7115,7 +7117,7 @@ input[type="checkbox"] {
   background-image: url("../images/dark-wood-backgroundwood.png");
   background-position: bottom left;
   background-size: cover;
-  /*opacity: 0.4;*/
+  opacity: 0.9;
   content: ' ';
   position: absolute;
   top: 0;
@@ -7145,7 +7147,9 @@ h1 small {
   margin-right: -50%;
   transform: translate(-50%, -50%);
   text-align: center;
-  /*border: 2px solid white;*/
+}
+h1 {
+  text-size: 15px !important;
 }
 .footer {
   position: fixed;
@@ -7160,5 +7164,5 @@ h1 small {
 }
 .icons {
   display: block;
-  margin-left: 48%;
+  margin-left: 47%;
 }

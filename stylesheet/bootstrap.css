@@ -1129,9 +1129,9 @@ img {
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
   display: block;
-  max-width: 20em;
-  max-height: 20em;
-  height: auto;
+  max-width: 30em;
+  max-height: 15em;
+  /*height: auto;*/
 }
 .img-rounded {
   border-radius: 0;
@@ -6370,9 +6370,9 @@ button.close {
 }
 .carousel-control {
   position: absolute;
-  top: 50%;
+  /*top: 50%;*/
   left: 0;
-  bottom: 0;
+  /*bottom: 0;*/
   width: 15%;
   opacity: 0.5;
   filter: alpha(opacity=50);
@@ -6475,12 +6475,13 @@ button.close {
   right: 15%;
   bottom: 20px;
   z-index: 10;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  color: #ffffff;
+  /*padding-top: 20px;
+  padding-bottom: 20px;*/
+  color: #fff;
   text-align: center;
-  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+  text-shadow: 1px 1px 1px #000;
 }
+
 .carousel-caption .btn {
   text-shadow: none;
 }
@@ -6505,10 +6506,10 @@ button.close {
   .carousel-caption {
     left: 20%;
     right: 20%;
-    padding-bottom: 30px;
+    /*padding-bottom: 30px;*/
   }
   .carousel-indicators {
-    bottom: 20px;
+    bottom: -30px;
   }
 }
 .clearfix:before,
@@ -7165,4 +7166,19 @@ h1 {
 .icons {
   display: block;
   text-align: center;
+}
+/*img {
+  max-width: 30em;
+  max-height: 18em;
+}*/
+.caption {
+  color: #fff;
+  text-align: center;
+  text-shadow: 1px 1px 1px #000;
+}
+.center-piece .jumbotron h1, h3 {
+  margin: 20px 40px 40px 40px;
+}
+.center-piece p {
+  color: #fff;
 }

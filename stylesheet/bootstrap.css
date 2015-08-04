@@ -7168,6 +7168,7 @@ h1 {
 }
 .footer .fa {
   color: #fff;
+  padding: 0 5px;
 }
 .icons {
   display: block;

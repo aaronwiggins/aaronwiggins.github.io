@@ -7142,11 +7142,17 @@ h1 small {
   /*font-weight: 400;*/
 }
 .center-piece {
-  padding: 1em;
+  /*padding: 1em;*/
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  /*transform: translate(-50%, -50%);*/
+  -webkit-transform:translate(-50%, -50%);
+  -moz-transform:translate(-50%, -50%);
+  -ms-transform:translate(-50%, -50%);
+  -o-transform:translate(-50%, -50%);
+  transform:translate(-50%, -50%);
+}
   text-align: center;
 }
 h1 {
@@ -7178,7 +7184,9 @@ h1 {
 }
 .center-piece .jumbotron h1, h3 {
   margin: 20px 40px 40px 40px;
+  text-align: center;
 }
 .center-piece p {
   color: #fff;
+  text-align: center
 }
